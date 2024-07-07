@@ -8,6 +8,7 @@
 
 - Questions/: Contains subdirectories categorized by topic, each containing questions and their respective solutions.
 
+    - Patterns/
     - Arrays/
     - LinkedLists/
     - StacksQueues/

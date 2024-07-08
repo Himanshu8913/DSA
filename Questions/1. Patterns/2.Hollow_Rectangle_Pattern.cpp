@@ -17,22 +17,35 @@ int main() {
     cin >> colCount;
 
 
-    for(int row= 0; row < rowCount; row++)
-    {
-        if(row == 0 || row == rowCount - 1) {
-            for(int col = 0; col < colCount; col++) {
+    // for(int row= 0; row < rowCount; row++)
+    // {
+    //     if(row == 0 || row == rowCount - 1) {
+    //         for(int col = 0; col < colCount; col++) {
+    //             cout << "*";
+    //         }
+    //     }
+    //     else {
+    //         cout << "*";
+    //         for(int col = 0; col < colCount-2; col++) {
+    //             cout << " ";
+    //         }
+    //         cout << "*";
+    //     }
+    //     cout << endl;
+
+    // }
+
+    for(int row = 0; row < rowCount; row++) {
+        for (int col = 0; col < colCount; col++)
+        {
+            if(row == 0 || row == rowCount-1 || col == 0 || col == colCount-1) {
                 cout << "*";
             }
-        }
-        else {
-            cout << "*";
-            for(int col = 0; col < colCount-2; col++) {
+            else {
                 cout << " ";
             }
-            cout << "*";
         }
         cout << endl;
-
     }
     return 0;
 }

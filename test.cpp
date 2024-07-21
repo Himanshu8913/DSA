@@ -2,5 +2,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hii";
+    int n;
+    cout << "Enter Number : ";
+    cin >> n;
+
+    return 0;
+
 }
